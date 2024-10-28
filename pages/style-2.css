@@ -30,13 +30,13 @@ body,
 .header-logo {
     width: 150px;
     height: 130px;
-    border: 2px solid white;
+
 }
 
 .header-logo img {
     width: 100%;
     height: 100%;
-    border: 2px solid white;
+
 }
 
 .header-row {
@@ -105,8 +105,7 @@ body,
     width: 100px;
     height: 95px;
     border-radius: 50%;
-    border: 2px;
-    border-color: #fff;
+
 }
 
 /* HEADER - END */
