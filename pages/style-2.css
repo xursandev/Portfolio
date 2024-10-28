@@ -158,12 +158,16 @@ body,
     padding-left: 20px;
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-bottom: 40px;
 }
 
 .banner-right{
     width: 50%;
     height: 100%;
+
 }
 
 .banner-row{
@@ -172,4 +176,68 @@ body,
     justify-content: space-between;
 }
 
+.banner-right__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.icon-1 svg{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.icon-1:first-child{
+    padding-left: 20px;
+}
+
 /* BANNER - END */
+
+@media screen and (max-width:980px) {
+    .header {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-menu {
+        display: block;
+    }
+
+    .header-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-left{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-left__title{
+        text-align: center;
+        font-size: 1.9em;
+    }
+
+    .banner-left__subtitle{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .banner-right{
+        width: 100%;
+        height: 100%;
+    }
+}
