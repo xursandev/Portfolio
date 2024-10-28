@@ -84,9 +84,10 @@ body,
 
 .header-logo img{
     margin-top: 20px;
-    width: 100px;
-    height: 95px;
+    width: 90px;
+    height: 85px;
     border-radius: 50%;
+    border-color: #fff;
 }
 
 /* HEADER - END */
